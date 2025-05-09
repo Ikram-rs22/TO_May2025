@@ -66,6 +66,17 @@ Full GDS with Fillers
     :alt: IHP Logo Image.
     :width: 800
 
+**Pin-Out**
+-----------------------------------
+
+.. image:: _static/pinout.png
+    :align: center
+    :alt: IHP Logo Image.
+    :width: 800
+
+
+
+
 **Layout information**
 ----------------------------------------
 .. list-table::
