@@ -21,7 +21,7 @@ part of design is a dc offset provider ensures there is 0V dc for 0 rf input. 20
 is flowing in each branch provided by nmos current sources.
 
 
-.. image:: _static/PD_Schematic.png
+.. image:: _static/PD_Schematic.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -33,7 +33,7 @@ Beta Multiplier
 The beta multiplier produces the 20uA reference current. There is a starter circuit and also
 the copy branch which provides the 20uA reference current to the main power detector.
 
-.. image:: _static/Beta_Multiplier_Schematic.png
+.. image:: _static/Beta_Multiplier_Schematic.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -43,7 +43,7 @@ the copy branch which provides the 20uA reference current to the main power dete
 
 Power Detector Layout
 ----------------------------------------------
-.. image:: _static/pd.png
+.. image:: _static/pd.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -52,7 +52,7 @@ Power Detector Layout
 Beta Multiplier Layout
 ---------------------------------------------
 
-.. image:: _static/beta_mux_gds.png
+.. image:: _static/beta_mux_gds.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -61,7 +61,7 @@ Full GDS with Fillers
 ----------------------------------------------
 
 
-.. image:: _static/gds.png
+.. image:: _static/gds.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -88,7 +88,7 @@ Full GDS with Fillers
 Output Voltage and Responsivity at 110 GHz -
 --------------------------------------------------
 
-.. image:: _static/110_GHz.png
+.. image:: _static/110_GHz.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -97,7 +97,7 @@ Output Voltage and Responsivity at 110 GHz -
 Output Voltage and Responsivity at 140 GHz -
 --------------------------------------------------
 
-.. image:: _static/140_GHz.png
+.. image:: _static/140_GHz.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -105,7 +105,7 @@ Output Voltage and Responsivity at 140 GHz -
 Output Voltage and Responsivity at 170 GHz -
 --------------------------------------------------
 
-.. image:: _static/170_GHz.png
+.. image:: _static/170_GHz.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
@@ -113,7 +113,7 @@ Output Voltage and Responsivity at 170 GHz -
 
 S11 Simulation
 ----------------------------------------------------
-.. image:: _static/S11.png
+.. image:: _static/S11.PNG
     :align: center
     :alt: IHP Logo Image.
     :width: 800
