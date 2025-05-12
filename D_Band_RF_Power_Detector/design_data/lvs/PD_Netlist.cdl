@@ -21,23 +21,22 @@ X1 c b e bn npn13G2 Nx={Nx}
 .ENDS
   
 .GLOBAL 0:G
-
 .SUBCKT FMD_QNC_D_BAND_PD
 Xrppd4 0  _net0 Vout1 IHP_PDK_basic_components_rppd w=9U l=5U m=1
-Xsg13_lv_nmos1 0  _net0 RefCurrent 0 gnd IHP_PDK_nonlinear_components_sg13_lv_nmos w=12U l=1U ng=1 m=1 as=0 ad=0 pd=0 ps=0 trise=0 z1=0.346E-6 z2=0.38E-6 wmin=0.15E-6 rfmode=0 pre_layout=1
-Xcap_cmim1 0  Vout1 0 IHP_PDK_basic_components_cap_cmim l=50U w=50U
+Xsg13_lv_nmos1 0  _net0 RefCurrent VEE VEE IHP_PDK_nonlinear_components_sg13_lv_nmos w=12U l=1U ng=1 m=1 as=0 ad=0 pd=0 ps=0 trise=0 z1=0.346E-6 z2=0.38E-6 wmin=0.15E-6 rfmode=0 pre_layout=1
+Xcap_cmim1 0  Vout1 VEE IHP_PDK_basic_components_cap_cmim l=50U w=50U
 Xnpn13G2 0  VCC1p3V _net1 _net0 0 IHP_PDK_nonlinear_components_npn13G2 Nx=4
 Xrppd1 0  VBIAS1V _net1 IHP_PDK_basic_components_rppd w=14.0U l=3U m=1
-Xcap_cmim3 0  RF_INPUT _net2 IHP_PDK_basic_components_cap_cmim l=40U w=40U
-Xcap_cmim4 0  _net2 _net1 IHP_PDK_basic_components_cap_cmim l=60U w=60U
 
-Xnpn13G1 0  VCC1p3V _net4 _net3 0 IHP_PDK_nonlinear_components_npn13G2 Nx=4
+Xnpn13G1 0  VCC1p3V _net2 _net3 0 IHP_PDK_nonlinear_components_npn13G2 Nx=4
 
-Xrppd2 0  VBIAS1V _net4 IHP_PDK_basic_components_rppd w=14.0U l=3U m=1
-Xsg13_lv_nmos3 0  _net3 RefCurrent 0 gnd IHP_PDK_nonlinear_components_sg13_lv_nmos w=12U l=1U ng=1 m=1 as=0 ad=0 pd=0 ps=0 trise=0 z1=0.346E-6 z2=0.38E-6 wmin=0.15E-6 rfmode=0 pre_layout=1
-Xcap_cmim6 0  VCC1p3V _net5 IHP_PDK_basic_components_cap_cmim l=50U w=50U
-Xcap_cmim7 0  VBIAS1V _net6 IHP_PDK_basic_components_cap_cmim l=50U w=50U
-Xcap_cmim5 0  VBIAS1V _net7 IHP_PDK_basic_components_cap_cmim l=50U w=50U
+Xrppd2 0  VBIAS1V _net2 IHP_PDK_basic_components_rppd w=14.0U l=3U m=1
+Xsg13_lv_nmos3 0  _net3 RefCurrent VEE VEE IHP_PDK_nonlinear_components_sg13_lv_nmos w=12U l=1U ng=1 m=1 as=0 ad=0 pd=0 ps=0 trise=0 z1=0.346E-6 z2=0.38E-6 wmin=0.15E-6 rfmode=0 pre_layout=1
+Xcap_cmim6 0  VCC1p3V VEE IHP_PDK_basic_components_cap_cmim l=50U w=50U
+Xcap_cmim7 0  VBIAS1V VEE IHP_PDK_basic_components_cap_cmim l=50U w=50U
+Xcap_cmim5 0  VBIAS1V VEE IHP_PDK_basic_components_cap_cmim l=50U w=50U
 Xrppd3 0  Vout2 _net3 IHP_PDK_basic_components_rppd w=9U l=5U m=1
-Xcap_cmim2 0  Vout2 0 IHP_PDK_basic_components_cap_cmim l=50U w=50U
+Xcap_cmim2 0  Vout2 VEE IHP_PDK_basic_components_cap_cmim l=50U w=50U
+Xcap_cmim3 0  RF_INPUT TL180um IHP_PDK_basic_components_cap_cmim l=20U w=20U
+Xcap_cmim4 0  TL180um _net1 IHP_PDK_basic_components_cap_cmim l=40U w=60U
 .END
